@@ -14,7 +14,7 @@ body {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
-    color: var(--white-color, #FFF);
+    color: #FFF;
     font-family: Open Sans;
     font-size: 20px;
     font-weight: 700;
@@ -109,9 +109,9 @@ nav a {
 }
 
 /* main section styles */
-main{
+main {
     max-width: 1140px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 /* about section styles */
@@ -122,10 +122,16 @@ main{
     margin: 130px 0px;
 }
 
-.about-info-container{
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
+}
+
+/* what i do section */
+#what-i-do {
+    padding: 30px 150px;
 }
